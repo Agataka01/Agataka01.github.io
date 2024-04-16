@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jersey 20";
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(255, 98, 0) 33.33%, rgb(68, 171, 0) 33.33%, rgb(68, 171, 0) 66.66%, rgb(0, 142, 218) 66%, rgb(0, 142, 218) 66.66%);
+}
+body a {
+  text-decoration: none;
+  width: 100%;
+}
+body a div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+}
+body a div i {
+  font-size: 10rem;
+  transition: 0.3s;
+}
+body a div h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+body a div p {
+  font-family: sans-serif;
+  font-size: 20px;
+  opacity: 0;
+  width: 75%;
+}
+body a .div-scale:hover {
+  transform: scale(0.9);
+}
+body a .div-scale:hover p {
+  opacity: 1;
+}
+body a .div-scale:hover h1,
+body a .div-scale:hover i {
+  transform: translate(0, 13rem);
+}
+body a .site:hover h1 {
+  transform: translate(0, -15rem);
+}
+body a .aboutme {
+  background-image: linear-gradient(rgba(100, 77, 42, 0.5), rgba(0, 0, 0, 0.5)), url("/img/me.jpg");
+}
+body a .projects {
+  background-image: linear-gradient(rgba(25, 103, 37, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg");
+}
+body a .contact {
+  background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2015/01/01/23/55/telephone-586266_1280.jpg");
+}
+body a .me {
+  background-image: url("/img/me.jpg");
+  transform: scale(0.9);
+}
+body a .facts {
+  background-color: rgb(255, 98, 0);
+}
+body a .back {
+  background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2016/11/18/14/01/abandoned-1834759_1280.jpg");
+}
+body a .beata {
+  background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)), url("/img/beata.png");
+}
+body a .drawing {
+  background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)), url("/img/drawing.png");
+}/*# sourceMappingURL=style.css.map */
