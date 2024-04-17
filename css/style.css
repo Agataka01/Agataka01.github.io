@@ -11,6 +11,10 @@ body {
   background: linear-gradient(to right, rgb(255, 98, 0) 33.33%, rgb(68, 171, 0) 33.33%, rgb(68, 171, 0) 66.66%, rgb(0, 142, 218) 66%, rgb(0, 142, 218) 66.66%);
 }
 
+.bg-contact {
+  background: rgb(0, 142, 218);
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -114,6 +118,18 @@ a .site:hover h1 {
 
 .drawing {
   background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)), url("/img/drawing.png");
+}
+
+.github {
+  background-color: #582879;
+}
+
+.linkedin {
+  background-color: #0072b1;
+}
+
+.mail p {
+  font-family: sans-serif;
 }
 
 footer {

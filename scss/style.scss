@@ -16,15 +16,18 @@ body {
 		rgb(0, 142, 218) 66.66%
 	);
 }
-.container{
+.bg-contact {
+	background: rgb(0, 142, 218);
+}
+.container {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 }
-.top{
+.top {
 	height: 88%;
 }
-.bot{
+.bot {
 	height: 12%;
 	text-align: center;
 	font-size: 40px;
@@ -74,33 +77,23 @@ a {
 	opacity: 0;
 	width: 75%;
 }
-.dscr-draw{
+.dscr-draw {
 	position: absolute;
-
 }
 .div-scale:hover .description {
 	opacity: 1;
 }
 
 .aboutme {
-	background-image: linear-gradient(
-			rgba(100, 77, 42, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+	background-image: linear-gradient(rgba(100, 77, 42, 0.5), rgba(0, 0, 0, 0.5)),
 		url('/img/me.jpg');
 }
 .projects {
-	background-image: linear-gradient(
-			rgba(25, 103, 37, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+	background-image: linear-gradient(rgba(25, 103, 37, 0.5), rgba(0, 0, 0, 0.5)),
 		url('https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg');
 }
 .contact {
-	background-image: linear-gradient(
-			rgba(17, 36, 74, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+	background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)),
 		url('https://cdn.pixabay.com/photo/2015/01/01/23/55/telephone-586266_1280.jpg');
 }
 .me {
@@ -111,27 +104,27 @@ a {
 	background-color: rgb(255, 98, 0);
 }
 .back {
-	background-image: linear-gradient(
-			rgba(17, 36, 74, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+	background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)),
 		url('https://cdn.pixabay.com/photo/2016/11/18/14/01/abandoned-1834759_1280.jpg');
 }
 .beata {
-	background-image: linear-gradient(
-			rgba(17, 36, 74, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+	background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)),
 		url('/img/beata.png');
 }
 .drawing {
-	background-image: linear-gradient(
-			rgba(17, 36, 74, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+	background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)),
 		url('/img/drawing.png');
 }
-footer{
+.github{
+	background-color:#582879 ;
+}
+.linkedin{
+	background-color:#0072b1 ;
+}
+.mail p{
+	font-family: sans-serif;
+}
+footer {
 	position: fixed;
 	bottom: 0;
 	height: 5%;
