@@ -10,73 +10,120 @@ body {
   justify-content: center;
   background: linear-gradient(to right, rgb(255, 98, 0) 33.33%, rgb(68, 171, 0) 33.33%, rgb(68, 171, 0) 66.66%, rgb(0, 142, 218) 66%, rgb(0, 142, 218) 66.66%);
 }
-body a {
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top {
+  height: 88%;
+}
+
+.bot {
+  height: 12%;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+}
+
+a {
   text-decoration: none;
   width: 100%;
 }
-body a div {
+a div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 95%;
   color: rgb(255, 255, 255);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
 }
-body a div i {
+a div i {
   font-size: 10rem;
   transition: 0.3s;
 }
-body a div h1 {
+a div h1 {
   text-align: center;
   font-size: 3rem;
   color: rgb(255, 255, 255);
   transition: 0.3s;
 }
-body a div p {
+a .div-scale:hover h1,
+a .div-scale:hover i {
+  transform: translate(0, 13rem);
+}
+a .site:hover h1 {
+  transform: translate(0, -15rem);
+}
+
+.div-scale:hover {
+  transform: scale(0.9);
+}
+
+.description {
   font-family: sans-serif;
   font-size: 20px;
   opacity: 0;
   width: 75%;
 }
-body a .div-scale:hover {
-  transform: scale(0.9);
+
+.dscr-draw {
+  position: absolute;
 }
-body a .div-scale:hover p {
+
+.div-scale:hover .description {
   opacity: 1;
 }
-body a .div-scale:hover h1,
-body a .div-scale:hover i {
-  transform: translate(0, 13rem);
-}
-body a .site:hover h1 {
-  transform: translate(0, -15rem);
-}
-body a .aboutme {
+
+.aboutme {
   background-image: linear-gradient(rgba(100, 77, 42, 0.5), rgba(0, 0, 0, 0.5)), url("/img/me.jpg");
 }
-body a .projects {
+
+.projects {
   background-image: linear-gradient(rgba(25, 103, 37, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg");
 }
-body a .contact {
+
+.contact {
   background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2015/01/01/23/55/telephone-586266_1280.jpg");
 }
-body a .me {
+
+.me {
   background-image: url("/img/me.jpg");
   transform: scale(0.9);
 }
-body a .facts {
+
+.facts {
   background-color: rgb(255, 98, 0);
 }
-body a .back {
+
+.back {
   background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2016/11/18/14/01/abandoned-1834759_1280.jpg");
 }
-body a .beata {
+
+.beata {
   background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)), url("/img/beata.png");
 }
-body a .drawing {
+
+.drawing {
   background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)), url("/img/drawing.png");
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #202124;
+  color: #bdc1c6;
+  text-align: center;
+  padding: 16px;
 }/*# sourceMappingURL=style.css.map */
