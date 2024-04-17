@@ -22,10 +22,11 @@ body {
 .container {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	width: 100%;
 }
 .top {
-	height: 88%;
+	height: 100%;
 }
 .bot {
 	height: 12%;
@@ -33,7 +34,6 @@ body {
 	font-size: 40px;
 	text-transform: uppercase;
 	color: white;
-	padding: 10px;
 }
 a {
 	text-decoration: none;
@@ -77,9 +77,6 @@ a {
 	opacity: 0;
 	width: 75%;
 }
-.dscr-draw {
-	position: absolute;
-}
 .div-scale:hover .description {
 	opacity: 1;
 }
@@ -101,7 +98,26 @@ a {
 	transform: scale(0.9);
 }
 .facts {
-	background-color: rgb(255, 98, 0);
+	background-color: #202124;
+	// justify-content: space-around;
+	h1 {
+		margin-bottom: 5rem;
+	}
+	p {
+		font-family: sans-serif;
+		width: 80%;
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	ul {
+		width: 80%;
+		li {
+			font-family: sans-serif;
+			width: 80%;
+			font-size: 24px;
+			margin-bottom: 5px;
+		}
+	}
 }
 .back {
 	background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)),
@@ -115,13 +131,13 @@ a {
 	background-image: linear-gradient(rgba(17, 36, 74, 0.5), rgba(0, 0, 0, 0.5)),
 		url('/img/drawing.png');
 }
-.github{
-	background-color:#582879 ;
+.github {
+	background-color: #582879;
 }
-.linkedin{
-	background-color:#0072b1 ;
+.linkedin {
+	background-color: #0072b1;
 }
-.mail p{
+.mail p {
 	font-family: sans-serif;
 }
 footer {

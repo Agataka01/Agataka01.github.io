@@ -18,11 +18,12 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 100%;
 }
 
 .top {
-  height: 88%;
+  height: 100%;
 }
 
 .bot {
@@ -31,7 +32,6 @@ body {
   font-size: 40px;
   text-transform: uppercase;
   color: white;
-  padding: 10px;
 }
 
 a {
@@ -79,10 +79,6 @@ a .site:hover h1 {
   width: 75%;
 }
 
-.dscr-draw {
-  position: absolute;
-}
-
 .div-scale:hover .description {
   opacity: 1;
 }
@@ -105,7 +101,25 @@ a .site:hover h1 {
 }
 
 .facts {
-  background-color: rgb(255, 98, 0);
+  background-color: #202124;
+}
+.facts h1 {
+  margin-bottom: 5rem;
+}
+.facts p {
+  font-family: sans-serif;
+  width: 80%;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.facts ul {
+  width: 80%;
+}
+.facts ul li {
+  font-family: sans-serif;
+  width: 80%;
+  font-size: 24px;
+  margin-bottom: 5px;
 }
 
 .back {
